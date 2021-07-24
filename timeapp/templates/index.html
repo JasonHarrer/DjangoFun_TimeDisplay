@@ -1,0 +1,21 @@
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>The time is...</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'index.css' %}">
+    </head>
+    <body>
+        <div>
+            <h4>The current date and time:</h4>
+        </div>
+        <div id="time">
+            <div>
+                <h1>{{ currtime }}</h1>
+            </div>
+            <div>
+                <h3>{{ currdate }}</h3>
+            </div>
+        </div>
+    </body>
+</html>
